@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="246.0" prefWidth="301.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mario.com.controller.ControllerLogin">
+   <children>
+      <TextField id="nome" fx:id="tfLogin" layoutX="23.0" layoutY="56.0" prefHeight="26.0" prefWidth="258.0" />
+      <PasswordField id="senha" fx:id="pfSenha" layoutX="22.0" layoutY="120.0" prefHeight="26.0" prefWidth="258.0" />
+      <Button id="btEntrar" layoutX="152.0" layoutY="177.0" mnemonicParsing="false" onAction="#entrar" prefHeight="26.0" prefWidth="127.0" style="-fx-background-color: #2196F3;" text="Entrar" textFill="WHITE" />
+      <Label layoutX="22.0" layoutY="31.0" text="Login" />
+      <Label layoutX="22.0" layoutY="97.0" text="Senha" />
+      <Label fx:id="retornoLogin" alignment="CENTER" layoutX="19.0" layoutY="154.0" prefHeight="16.0" prefWidth="258.0" textFill="RED" />
+   </children>
+</Pane>
